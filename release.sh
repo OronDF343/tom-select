@@ -89,14 +89,14 @@ if ! npm run build; then
 fi
 
 # remove contents of dist folder
-mkdir -p dist
-if ! rm -r dist/*; then
+if ! rm -rf dist/; then
 	echo '/dist not emptied... cannot create release'
 	exit
 fi
 
 
 # copy /build to /dist
+mkdir -p dist
 if ! cp -r build/* dist; then
 	echo '/build not copied to /dist... cannot create release'
 	exit
