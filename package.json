@@ -91,14 +91,14 @@
   },
   "scripts": {
     "build": "grunt build",
-    "build:types": "npx typescript -p .config --emitDeclarationOnly",
+    "build:types": "npx tsc -p .config --emitDeclarationOnly",
     "test": "karma start",
     "test:one": "karma start --test_one",
-    "test:typescript": "npx typescript -p .config --noemit",
+    "test:typescript": "npx tsc -p .config --noemit",
     "start": "grunt serve",
     "pretest": "grunt build",
     "prepare": "husky install",
-    "stylelint": "stylelint -c .config/stylelintrc.json 'src/**/*.scss'"
+    "stylelint": "stylelint -c .config/stylelintrc.json \"src/**/*.scss\""
   },
   "engines": {
     "node": "*"
