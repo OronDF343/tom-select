@@ -23,12 +23,13 @@
   ],
   "author": "Josh Schmidt (https://github.com/oyejorge)",
   "contributors": [
+	"Oron Feinerman <oronf@mda.org.il>",
     "Brian Reavis <brian@thirdroute.com>"
   ],
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/orchidjs/tom-select.git"
+    "url": "https://github.com/OronDF343/tom-select.git"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
@@ -109,15 +110,10 @@
     "Chrome >= 60",
     "Firefox >= 60",
     "Firefox ESR",
-    "Edge >= 17",
     "iOS >= 12",
     "Safari >= 12",
     "not Explorer <= 11"
   ],
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/tom-select"
-  },
   "dependencies": {
     "@orchidjs/sifter": "^1.0.3",
     "@orchidjs/unicode-variants": "^1.0.4"
