@@ -13,3 +13,4 @@ coverage/
 stats/
 src/tom-select.custom.ts
 dist
+build
